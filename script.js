@@ -1,7 +1,7 @@
 function executarPipeline() {
     const resultado = document.getElementById("resultado");
   
-    resultado.innerHTML = "🔄 Executando testes...";
+    resultado.innerHTML = "🔄 Versao Executando testes...";
   
     setTimeout(() => {
       resultado.innerHTML = "✅ Testes passaram!";
